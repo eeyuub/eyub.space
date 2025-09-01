@@ -8,7 +8,10 @@ import react from '@astrojs/react';
 import node from '@astrojs/node';
 // https://astro.build/config
 export default defineConfig({
-   output: 'server',
+  output: 'server',
+  server: {
+    port: Number(process.env.PORT) || 3000,
+  },
   vite: {
     plugins: [tailwindcss()]
   },
