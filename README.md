@@ -1,12 +1,20 @@
-# Nikola Tesla Portfolio
-Nikola Tesla Portfolio is an Astro template built with of course Astro 5.7, React 19 and TailwindCSS 4
+# Ayoub Baraoui Portfolio
+Ayoub Baraoui Portfolio is an Astro template built with Astro 5.7, React 19, and Tailwind CSS 4.
 
-![Nikola Tesla Astro Portfolio](/public/social-image.jpg "Nikola Tesla Portfolio")
+> Note: This project is forked from https://github.com/iann-mathaiya/nikola-tesla
+
+![Ayoub Baraoui Astro Portfolio](/public/eyub.space-fullscreen-min.png "Ayoub Baraoui Portfolio")
 
 ## Getting Started
 Clone Repository
 ```sh
-git clone https://github.com/iann-mathaiya/nikola-tesla.git
+git clone https://github.com/eeyuub/eyub.space.git
+```
+
+Checkout p-01 branch
+```sh
+cd eyub.space
+git checkout p-01
 ```
 
 Install Dependencies
@@ -36,8 +44,10 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
+│   └── favicon.ico
 │   └── favicon.svg
-│   └── social-image.svg
+│   └── resume.json
+│   └── eyub.space-fullscreen-min.png
 ├── src/
 │   ├── actions/
 │   │   └── # Astro server actions
@@ -45,8 +55,14 @@ Inside of your Astro project, you'll see the following folders and files:
 │   │   └── # Images that are transformed, optimized and bundled by Astro 
 │   ├── components/
 │   │   └── # Astro and React components
+│   ├── content/
+│   │   └── articles/
+│   │       └── # Markdown content collection for blog
 │   ├── layouts/
 │   │   └── RootLayout.astro
+│   │   └── InfoLayout.astro
+│   ├── lib/
+│   │   └── utils.ts
 │   └── pages/
 │   │   └── blog/
 │   │   │   └── index.astro
