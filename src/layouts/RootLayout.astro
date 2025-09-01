@@ -3,14 +3,11 @@ import "../styles/global.css";
 import { Font } from "astro:assets";
 import { ClientRouter } from 'astro:transitions';
 import LoadingIndicator from "astro-loading-indicator/component"
-import fs from "node:fs";
+import resume from "../data/resume.json";
 
 const { title, description } = Astro.props;
 
 // Load user info for sensible SEO defaults
-const resume = JSON.parse(
-  fs.readFileSync(new URL("../../public/resume.json", import.meta.url), "utf-8")
-);
 
 const defaultTitle = `${resume.basics.firstName} ${resume.basics.lastName}`;
 const defaultDescription = resume.basics.label ?? resume.basics.summary;

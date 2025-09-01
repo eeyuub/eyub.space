@@ -1,8 +1,7 @@
 ---
 import H1 from "../components/h1.astro";
 import InfoLayout from "../layouts/InfoLayout.astro";
-import fs from "node:fs";
-const resume = JSON.parse(fs.readFileSync(new URL("../../public/resume.json", import.meta.url), "utf-8"));
+import resume from "../data/resume.json";
 ---
 
 <InfoLayout>
