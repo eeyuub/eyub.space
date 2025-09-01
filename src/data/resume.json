@@ -240,6 +240,31 @@
   ],
   "projects": [
     {
+      "name": "Hub-Menu",
+      "description": "(Founder @ Wiicode Apps) A full-featured SaaS platform for restaurants to create and manage digital menus. The platform features QR code generation, online ordering integration, and customer analytics to enhance customer experience and streamline operations.",
+      "keywords": ["NestJS", "TypeScript", "PostgreSQL", "Docker", "Stripe API"],
+      "url": "https://hub-menu.com/",
+      "logo": "https://placehold.co/80x80?text=Hub-Menu",
+      "thumbnail": "https://minio-ikwco4g404c04k0kckcwgw00.wiicode-apps.com/eyub.space/public%2Fhubmenu-fullscreen-min.png",
+      "highlights": [
+        "Successfully designed, built, and launched the entire SaaS platform from concept to production.",
+        "Onboarded over 50 restaurants in the first three months, processing more than 10,000 orders.",
+        "Integrated Stripe API for a secure, automated subscription and billing system."
+      ]
+    },
+    {
+      "name": "Salty Wave - Surf Camp Platform",
+      "description": "Developed the backend and booking system for a premier surf and yoga camp in Morocco. The platform features accommodation management, package booking, and activity scheduling to provide a seamless digital experience for tourists and surf enthusiasts.",
+      "keywords": ["PHP", "Laravel", "MySQL", "JavaScript", "Booking System"],
+      "url": "https://salty-wave.com/en",
+      "logo": "https://placehold.co/80x80?text=Salty+Wave",
+      "thumbnail": "https://minio-ikwco4g404c04k0kckcwgw00.wiicode-apps.com/eyub.space/public%2Fsaltywaves-fullscreen-min.png",
+      "highlights": [
+        "Streamlined the booking process, reducing the time to book by 60%.",
+        "Developed a custom management dashboard that decreased administrative work for staff by 3 hours per week."
+      ]
+    },
+    {
       "name": "Studio Fitness",
       "description": "Developed a static marketing and presentation website for Studio Fitness to showcase their brand, services, and facilities.",
       "keywords": ["HTML", "CSS", "JavaScript", "Static Site"],
@@ -263,19 +288,7 @@
         "Implemented a performant product catalog search, reducing user search time by 50%."
       ]
     },
-    {
-      "name": "Hub-Menu",
-      "description": "(Founder @ Wiicode Apps) A full-featured SaaS platform for restaurants to create and manage digital menus. The platform features QR code generation, online ordering integration, and customer analytics to enhance customer experience and streamline operations.",
-      "keywords": ["NestJS", "TypeScript", "PostgreSQL", "Docker", "Stripe API"],
-      "url": "https://hub-menu.com/",
-      "logo": "https://placehold.co/80x80?text=Hub-Menu",
-      "thumbnail": "https://minio-ikwco4g404c04k0kckcwgw00.wiicode-apps.com/eyub.space/public%2Fhubmenu-fullscreen-min.png",
-      "highlights": [
-        "Successfully designed, built, and launched the entire SaaS platform from concept to production.",
-        "Onboarded over 50 restaurants in the first three months, processing more than 10,000 orders.",
-        "Integrated Stripe API for a secure, automated subscription and billing system."
-      ]
-    },
+    
     {
       "name": "WiiQR",
       "description": "(Founder @ Wiicode Apps) A dynamic QR code generation platform allowing users to create, customize, and manage QR codes for various data types (URLs, vCards, WiFi). Engineered for lifetime validity and a user-friendly customization interface.",
@@ -286,6 +299,18 @@
       "highlights": [
         "Engineered a highly available system with 99.9% uptime, successfully generating over 100,000 unique QR codes.",
         "Developed a custom analytics dashboard for users to track QR code scan data."
+      ]
+    },
+    {
+      "name": "Wiicode Digital",
+      "description": "Founder and developer of a digital agency focused on building modern, high-performance web solutions for businesses, from custom websites to full-stack applications.",
+      "keywords": ["Web Development", "SaaS", "Full-Stack"],
+      "url": "https://wiicode.digital/",
+      "logo": "https://placehold.co/80x80?text=Wiicode+Digital",
+      "thumbnail": "https://minio-ikwco4g404c04k0kckcwgw00.wiicode-apps.com/eyub.space/public%2Fwiicode-ditial-fullscreen-min.png",
+      "highlights": [
+        "Successfully delivered 10+ web and application development projects for clients across various industries.",
+        "Maintained a 95% client satisfaction and retention rate."
       ]
     },
     {
@@ -310,30 +335,6 @@
       "highlights": [
         "Improved SEO, leading to a 40% increase in organic search traffic within two months.",
         "Achieved a Google PageSpeed score of 95+, enhancing the user experience."
-      ]
-    },
-    {
-      "name": "Salty Wave - Surf Camp Platform",
-      "description": "Developed the backend and booking system for a premier surf and yoga camp in Morocco. The platform features accommodation management, package booking, and activity scheduling to provide a seamless digital experience for tourists and surf enthusiasts.",
-      "keywords": ["PHP", "Laravel", "MySQL", "JavaScript", "Booking System"],
-      "url": "https://salty-wave.com/en",
-      "logo": "https://placehold.co/80x80?text=Salty+Wave",
-      "thumbnail": "https://minio-ikwco4g404c04k0kckcwgw00.wiicode-apps.com/eyub.space/public%2Fsaltywaves-fullscreen-min.png",
-      "highlights": [
-        "Streamlined the booking process, reducing the time to book by 60%.",
-        "Developed a custom management dashboard that decreased administrative work for staff by 3 hours per week."
-      ]
-    },
-    {
-      "name": "Wiicode Digital",
-      "description": "Founder and developer of a digital agency focused on building modern, high-performance web solutions for businesses, from custom websites to full-stack applications.",
-      "keywords": ["Web Development", "SaaS", "Full-Stack"],
-      "url": "https://wiicode.digital/",
-      "logo": "https://placehold.co/80x80?text=Wiicode+Digital",
-      "thumbnail": "https://minio-ikwco4g404c04k0kckcwgw00.wiicode-apps.com/eyub.space/public%2Fwiicode-ditial-fullscreen-min.png",
-      "highlights": [
-        "Successfully delivered 10+ web and application development projects for clients across various industries.",
-        "Maintained a 95% client satisfaction and retention rate."
       ]
     }
   ]
